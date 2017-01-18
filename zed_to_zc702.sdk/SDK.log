@@ -1,0 +1,62 @@
+09:50:11 INFO  : Processing command line option -hwspec C:/Users/Furkan/Code/zed_to_zc702/zed_to_zc702.sdk/design_1_wrapper.hdf.
+09:50:25 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+10:00:20 ERROR : Unexpected error while launching program.
+java.lang.NullPointerException
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:296)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:247)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+10:00:29 ERROR : Unexpected error while launching program.
+java.lang.NullPointerException
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:296)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:247)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+10:01:59 ERROR : Unexpected error while launching program.
+java.lang.NullPointerException
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:296)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:247)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+10:02:09 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:02:21 INFO  : Processing command line option -hwspec C:/Users/Furkan/Code/zed_to_zc702/zed_to_zc702.sdk/design_1_wrapper.hdf.
+10:02:22 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+10:02:23 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.3.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+10:02:40 INFO  : ps7_init is completed.
+10:02:41 INFO  : ps7_post_config is completed.
+10:02:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:02:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:03:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:03:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:03:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:04:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:04:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:05:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:05:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:06:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:06:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:07:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:08:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:18:31 INFO  : FPGA configured successfully with bitstream "C:/Users/Furkan/Code/zed_to_zc702/zed_to_zc702.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:18:37 INFO  : ps7_init is completed.
+10:18:37 INFO  : ps7_post_config is completed.
+10:18:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:21:49 INFO  : FPGA configured successfully with bitstream "C:/Users/Furkan/Code/zed_to_zc702/zed_to_zc702.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:22:03 INFO  : ps7_init is completed.
+10:22:03 INFO  : ps7_post_config is completed.
+10:22:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:35:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:35:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:46:42 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

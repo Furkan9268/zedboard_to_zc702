@@ -1,0 +1,6 @@
+10:35:44 **** Incremental Build of configuration Debug for project pwr_read ****
+make all 
+make: Für das Ziel »all« ist nichts zu tun.
+
+10:35:44 Build Finished (took 78ms)
+

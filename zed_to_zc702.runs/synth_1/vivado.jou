@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.3.1 (64-bit)
+# SW Build 1056140 on Thu Oct 30 17:03:40 MDT 2014
+# IP Build 1028902 on Fri Sep 26 17:35:13 MDT 2014
+# Start of session at: Wed Jan 18 09:27:11 2017
+# Process ID: 3400
+# Log file: C:/Users/Furkan/Code/zed_to_zc702/zed_to_zc702.runs/synth_1/design_1_wrapper.vds
+# Journal file: C:/Users/Furkan/Code/zed_to_zc702/zed_to_zc702.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl

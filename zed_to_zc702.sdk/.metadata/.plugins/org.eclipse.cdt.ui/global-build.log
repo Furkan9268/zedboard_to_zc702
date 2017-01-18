@@ -1,0 +1,584 @@
+09:53:08 **** Build of project pwr_read_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling iicps"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+09:53:26 **** Build of configuration Debug for project pwr_read ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pwr_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pwr_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: pwr_read.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pwr_read_bsp/ps7_cortexa9_0/lib -o "pwr_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pwr_read.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pwr_read.elf  |tee "pwr_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22916	   1152	  22564	  46632	   b628	pwr_read.elf
+'Finished building: pwr_read.elf.size'
+' '
+09:57:46 **** Auto Build of configuration Debug for project pwr_read ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pwr_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:115:3: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+   sleep(1);
+   ^
+../src/helloworld.c:105:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^
+../src/helloworld.c: In function 'IicPsMasterPolledExample':
+../src/helloworld.c:141:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pwr_read.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pwr_read_bsp/ps7_cortexa9_0/lib -o "pwr_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pwr_read.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pwr_read.elf  |tee "pwr_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31616	   1176	  22628	  55420	   d87c	pwr_read.elf
+'Finished building: pwr_read.elf.size'
+' '
+10:00:05 **** Auto Build of configuration Debug for project pwr_read ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pwr_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:115:3: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+   sleep(1);
+   ^
+../src/helloworld.c:105:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^
+../src/helloworld.c: In function 'IicPsMasterPolledExample':
+../src/helloworld.c:141:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pwr_read.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pwr_read_bsp/ps7_cortexa9_0/lib -o "pwr_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pwr_read.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pwr_read.elf  |tee "pwr_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31616	   1176	  22628	  55420	   d87c	pwr_read.elf
+'Finished building: pwr_read.elf.size'
+' '
+10:00:19 **** Incremental Build of configuration Debug for project pwr_read ****
+make all 
+make: Für das Ziel »all« ist nichts zu tun.
+10:00:29 **** Incremental Build of configuration Debug for project pwr_read ****
+make all 
+make: Für das Ziel »all« ist nichts zu tun.
+10:01:59 **** Incremental Build of configuration Debug for project pwr_read ****
+make all 
+make: Für das Ziel »all« ist nichts zu tun.
+10:02:38 **** Incremental Build of configuration Debug for project pwr_read ****
+make all 
+make: Für das Ziel »all« ist nichts zu tun.
+10:02:52 **** Incremental Build of configuration Debug for project pwr_read ****
+make all 
+make: Für das Ziel »all« ist nichts zu tun.
+10:03:09 **** Auto Build of configuration Debug for project pwr_read ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pwr_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:115:3: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+   sleep(1);
+   ^
+../src/helloworld.c:105:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^
+../src/helloworld.c: In function 'IicPsMasterPolledExample':
+../src/helloworld.c:141:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pwr_read.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pwr_read_bsp/ps7_cortexa9_0/lib -o "pwr_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pwr_read.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pwr_read.elf  |tee "pwr_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31616	   1176	  22628	  55420	   d87c	pwr_read.elf
+'Finished building: pwr_read.elf.size'
+' '
+10:03:13 **** Incremental Build of configuration Debug for project pwr_read ****
+make all 
+make: Für das Ziel »all« ist nichts zu tun.
+10:03:19 **** Auto Build of configuration Debug for project pwr_read ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pwr_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:115:3: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+   sleep(1);
+   ^
+../src/helloworld.c:105:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^
+../src/helloworld.c: In function 'IicPsMasterPolledExample':
+../src/helloworld.c:141:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pwr_read.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pwr_read_bsp/ps7_cortexa9_0/lib -o "pwr_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pwr_read.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pwr_read.elf  |tee "pwr_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31616	   1176	  22628	  55420	   d87c	pwr_read.elf
+'Finished building: pwr_read.elf.size'
+' '
+10:03:22 **** Incremental Build of configuration Debug for project pwr_read ****
+make all 
+make: Für das Ziel »all« ist nichts zu tun.
+10:03:55 **** Incremental Build of configuration Debug for project pwr_read ****
+make all 
+make: Für das Ziel »all« ist nichts zu tun.
+10:04:17 **** Auto Build of configuration Debug for project pwr_read ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pwr_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:105:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^
+../src/helloworld.c: In function 'IicPsMasterPolledExample':
+../src/helloworld.c:141:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pwr_read.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pwr_read_bsp/ps7_cortexa9_0/lib -o "pwr_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pwr_read.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pwr_read.elf  |tee "pwr_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31552	   1176	  22628	  55356	   d83c	pwr_read.elf
+'Finished building: pwr_read.elf.size'
+' '
+10:04:20 **** Incremental Build of configuration Debug for project pwr_read ****
+make all 
+make: Für das Ziel »all« ist nichts zu tun.
+10:04:43 **** Auto Build of configuration Debug for project pwr_read ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pwr_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:105:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^
+../src/helloworld.c: In function 'IicPsMasterPolledExample':
+../src/helloworld.c:142:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pwr_read.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pwr_read_bsp/ps7_cortexa9_0/lib -o "pwr_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pwr_read.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pwr_read.elf  |tee "pwr_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31568	   1176	  22628	  55372	   d84c	pwr_read.elf
+'Finished building: pwr_read.elf.size'
+' '
+10:04:48 **** Incremental Build of configuration Debug for project pwr_read ****
+make all 
+make: Für das Ziel »all« ist nichts zu tun.
+10:05:22 **** Auto Build of configuration Debug for project pwr_read ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pwr_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:105:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^
+../src/helloworld.c: In function 'IicPsMasterPolledExample':
+../src/helloworld.c:141:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pwr_read.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pwr_read_bsp/ps7_cortexa9_0/lib -o "pwr_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pwr_read.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pwr_read.elf  |tee "pwr_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31572	   1176	  22628	  55376	   d850	pwr_read.elf
+'Finished building: pwr_read.elf.size'
+' '
+10:05:25 **** Incremental Build of configuration Debug for project pwr_read ****
+make all 
+make: Für das Ziel »all« ist nichts zu tun.
+10:05:45 **** Auto Build of configuration Debug for project pwr_read ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pwr_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:105:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^
+../src/helloworld.c: In function 'IicPsMasterPolledExample':
+../src/helloworld.c:141:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pwr_read.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pwr_read_bsp/ps7_cortexa9_0/lib -o "pwr_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pwr_read.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pwr_read.elf  |tee "pwr_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31576	   1176	  22628	  55380	   d854	pwr_read.elf
+'Finished building: pwr_read.elf.size'
+' '
+10:05:49 **** Incremental Build of configuration Debug for project pwr_read ****
+make all 
+make: Für das Ziel »all« ist nichts zu tun.
+10:06:09 **** Auto Build of configuration Debug for project pwr_read ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pwr_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:105:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^
+../src/helloworld.c: In function 'IicPsMasterPolledExample':
+../src/helloworld.c:141:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pwr_read.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pwr_read_bsp/ps7_cortexa9_0/lib -o "pwr_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pwr_read.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pwr_read.elf  |tee "pwr_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31576	   1176	  22628	  55380	   d854	pwr_read.elf
+'Finished building: pwr_read.elf.size'
+' '
+10:06:12 **** Incremental Build of configuration Debug for project pwr_read ****
+make all 
+make: Für das Ziel »all« ist nichts zu tun.
+10:06:33 **** Auto Build of configuration Debug for project pwr_read ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pwr_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:105:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^
+../src/helloworld.c: In function 'IicPsMasterPolledExample':
+../src/helloworld.c:141:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pwr_read.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pwr_read_bsp/ps7_cortexa9_0/lib -o "pwr_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pwr_read.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pwr_read.elf  |tee "pwr_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31600	   1176	  22628	  55404	   d86c	pwr_read.elf
+'Finished building: pwr_read.elf.size'
+' '
+10:06:36 **** Incremental Build of configuration Debug for project pwr_read ****
+make all 
+make: Für das Ziel »all« ist nichts zu tun.
+10:07:23 **** Auto Build of configuration Debug for project pwr_read ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pwr_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:105:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^
+../src/helloworld.c: In function 'IicPsMasterPolledExample':
+../src/helloworld.c:178:3: error: expected ';' before 'return'
+   return XST_FAILURE;
+   ^
+../src/helloworld.c:141:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^
+make: *** [src/helloworld.o] Fehler 1
+10:07:28 **** Auto Build of configuration Debug for project pwr_read ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pwr_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:105:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^
+../src/helloworld.c: In function 'IicPsMasterPolledExample':
+../src/helloworld.c:141:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pwr_read.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pwr_read_bsp/ps7_cortexa9_0/lib -o "pwr_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pwr_read.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pwr_read.elf  |tee "pwr_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31612	   1176	  22628	  55416	   d878	pwr_read.elf
+'Finished building: pwr_read.elf.size'
+' '
+10:07:31 **** Incremental Build of configuration Debug for project pwr_read ****
+make all 
+make: Für das Ziel »all« ist nichts zu tun.
+10:08:09 **** Auto Build of configuration Debug for project pwr_read ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pwr_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:105:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^
+../src/helloworld.c: In function 'IicPsMasterPolledExample':
+../src/helloworld.c:141:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pwr_read.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pwr_read_bsp/ps7_cortexa9_0/lib -o "pwr_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pwr_read.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pwr_read.elf  |tee "pwr_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31692	   1176	  22628	  55496	   d8c8	pwr_read.elf
+'Finished building: pwr_read.elf.size'
+' '
+10:08:12 **** Incremental Build of configuration Debug for project pwr_read ****
+make all 
+make: Für das Ziel »all« ist nichts zu tun.
+10:18:09 **** Auto Build of configuration Debug for project pwr_read ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pwr_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:105:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^
+../src/helloworld.c: In function 'IicPsMasterPolledExample':
+../src/helloworld.c:141:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pwr_read.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pwr_read_bsp/ps7_cortexa9_0/lib -o "pwr_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pwr_read.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pwr_read.elf  |tee "pwr_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31692	   1168	  22628	  55488	   d8c0	pwr_read.elf
+'Finished building: pwr_read.elf.size'
+' '
+10:18:20 **** Incremental Build of configuration Debug for project pwr_read ****
+make all 
+make: Für das Ziel »all« ist nichts zu tun.
+10:18:36 **** Incremental Build of configuration Debug for project pwr_read ****
+make all 
+make: Für das Ziel »all« ist nichts zu tun.
+10:21:56 **** Auto Build of configuration Debug for project pwr_read ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pwr_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:105:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^
+../src/helloworld.c: In function 'IicPsMasterPolledExample':
+../src/helloworld.c:141:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pwr_read.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pwr_read_bsp/ps7_cortexa9_0/lib -o "pwr_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pwr_read.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pwr_read.elf  |tee "pwr_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31692	   1176	  22628	  55496	   d8c8	pwr_read.elf
+'Finished building: pwr_read.elf.size'
+' '
+10:22:02 **** Incremental Build of configuration Debug for project pwr_read ****
+make all 
+make: Für das Ziel »all« ist nichts zu tun.
+10:35:27 **** Incremental Build of configuration Debug for project pwr_read ****
+make all 
+make: Für das Ziel »all« ist nichts zu tun.
+10:35:41 **** Auto Build of configuration Debug for project pwr_read ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../pwr_read_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:105:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^
+../src/helloworld.c: In function 'IicPsMasterPolledExample':
+../src/helloworld.c:141:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: pwr_read.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pwr_read_bsp/ps7_cortexa9_0/lib -o "pwr_read.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pwr_read.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pwr_read.elf  |tee "pwr_read.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31692	   1176	  22628	  55496	   d8c8	pwr_read.elf
+'Finished building: pwr_read.elf.size'
+' '
+10:35:44 **** Incremental Build of configuration Debug for project pwr_read ****
+make all 
+make: Für das Ziel »all« ist nichts zu tun.
